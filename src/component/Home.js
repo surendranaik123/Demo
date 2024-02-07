@@ -1,10 +1,9 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext } from 'react';
 import Home1 from './Home1';
 import { MyContext } from './MyContext';
 
 function Home() {
- const [data, setData] = useState('naik');
-
+ 
 const { products } = useContext(MyContext);
   console.log({products});
   return (

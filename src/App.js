@@ -1,7 +1,7 @@
-import React, { useReducer} from "react";
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./component/Home";
-import { MyContext, MyProvider } from "./component/MyContext";
+
 import UseStateandUseeffect from "./component/UseStateandUseeffect";
 import Home1 from "./component/Home1";
 import ReduxUi from "./component/ReduxUi";
