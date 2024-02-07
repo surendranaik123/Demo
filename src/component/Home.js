@@ -8,7 +8,7 @@ const { products } = useContext(MyContext);
   console.log({products});
   return (
     <div>
-      <Home1 message={`Hello from parent! Data: ${data}`} />
+      <Home1 message={`Hello from parent!`} />
       <h2>Home</h2>
     
       
